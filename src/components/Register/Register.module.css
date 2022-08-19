@@ -1,0 +1,71 @@
+.welcome{
+    background-image: url(../../imgs/signin.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 10px;
+    /* border-radius: 25px; */
+}
+.welcome h2{
+    color: #fff;
+}
+.btnLogin{
+    background-color: #f1b24a;
+    color: #fff;
+}
+.btnLogin:hover{
+    background-color: #f1b24a;
+    color: #fff;
+}
+.createAccount h2{
+    color: #164a41;
+    font-weight: 700;
+    font-size: 36px;
+}
+.createAccount ul{
+    margin-left: -30px;
+}
+.createAccount ul li{
+    margin:0 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms ease;
+}
+.createAccount ul li a{
+    color: #164a41;
+    transition: all 500ms ease;
+}
+.createAccount ul li:hover{
+    background-color: #164a41;
+}
+.createAccount ul li:hover a{
+    color: #f1b24a;
+    
+}
+.createAccount p{
+    color: #A3A8AB;
+    padding:0 10px;
+}
+.btnReg{
+    background-color: #164a41;
+    color: #f1b24a;
+}
+.btnReg:hover{
+    background-color: #164a41;
+    color: #f1b24a;
+    border-color: #164a41;
+}
+.inputFields input:focus{
+    box-shadow: none;
+    border-color: #f1b24a;
+}
+.eyeImg{
+    width: 37px;
+    right: 3px;
+    top: 50%;
+
+}

@@ -1,0 +1,9 @@
+.loginbtn{
+        background-color: #f1b24a;
+        color: #164a41;
+    border: none;
+}
+.leftSide{
+    box-shadow: -3px 10px 30px rgba(0, 0, 0, 0.5);
+    /* transform: translateX(10%); */
+}

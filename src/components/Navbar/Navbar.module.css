@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+nav{
+    background-color: #164a41;
+}
+li:hover .textColor{
+    color: #f1b24a;
+}
+.textColor{
+    color: #fff ;
+}
+.active{
+    color: #f1b24a;
+}
+.searchbar{
+    background-color: transparent;
+    border: 1px solid #e6d1d8;
+    height: 30px;
+    width: 200px;
+}
+/* input:hover , .searchbar:focus{
+    background-color: #e6d1d8;
+    
+} */
+.navbtn{
+    font-size: 14px;
+    color: #f1b24a;
+    border:1px solid #f1b24a ;
+    background-color: transparent;
+    transition: all 500ms ease;
+}
+.navbtn:hover{
+    border-color:#fff;
+    background-color: #f1b24a;
+    color: #fff;
+}
+.logo{
+    font-size: 27px;
+    font-family: 'Dancing Script', cursive;
+}
+.logo:hover{
+    color: #fff;
+}

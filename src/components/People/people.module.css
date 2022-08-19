@@ -1,0 +1,18 @@
+.peopleInfo{
+    overflow: hidden;
+    border-radius: 7px;
+}
+.innerLayer{
+    top: 0;
+    background-color: rgba(241, 178, 74,.6);
+    /* color: #fff; */
+    transform: translate(-100%);
+    transition: all 500ms ease;
+
+}
+.innerLayer h5,.innerLayer p{
+    color: #fff !important;
+}
+.peopleInfo:hover .innerLayer{
+    transform: translate(0);
+}

@@ -1,0 +1,25 @@
+.aboutDetails{
+    /* border: 1px solid #164a41; */
+    border-radius: 10px;
+    padding: 40px;
+    background-color: #fff;
+    transition: all 500ms ease;
+}
+.aboutDetails p{
+    transition: all 500ms ease;
+}
+.aboutDetails:hover{
+    background-color: #f1b24a;
+}
+.aboutDetails:hover img{
+    transform: scale(1.2);
+}
+.aboutDetails:hover p{
+    color: #fff;
+ transform: translate(0,30%);
+}
+
+.aboutDetails img{
+    width: 100px;
+    transition: all 500ms ease;
+}

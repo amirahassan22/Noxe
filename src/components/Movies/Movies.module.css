@@ -1,0 +1,26 @@
+.listBtns button {
+background-color: #164a41 !important;
+color: #f1b24a !important;
+margin: 0 7px;
+}
+.peopleInfo{
+    overflow: hidden;
+    border-radius: 7px;
+}
+.innerLayer{
+    top: 0;
+    background-color: rgba(241, 178, 74,.6);
+    /* color: #fff; */
+    transform: translate(-100%);
+    transition: all 500ms ease;
+
+}
+.innerLayer p{
+    font-size: 14px;
+}
+.innerLayer h5,.innerLayer p{
+    color: #fff !important;
+}
+.peopleInfo:hover .innerLayer{
+    transform: translate(0);
+}

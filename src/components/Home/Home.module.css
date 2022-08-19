@@ -1,0 +1,35 @@
+.upperLine{
+    height: 2px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #f1b24a;
+    margin-bottom: 40px;
+    transition: all 500ms ease;
+}
+.trendigInfo:hover .upperLine{
+    width: 200px;
+    background-color: #164a41;
+}
+.lowerLine{
+    height: 2px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #f1b24a;
+    margin-top: 40px;
+    transition: all 500ms ease;
+}
+.trendigInfo:hover .lowerLine{
+    width: 300px;
+    background-color: #164a41;
+    
+}
+.trendigInfo h2{
+    transition: all 500ms ease;
+}
+.trendigInfo{
+    overflow: hidden;
+}
+.trendigInfo:hover h2{
+    transform: rotate(360deg);
+    color: #f1b24a;
+}
